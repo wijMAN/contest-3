@@ -1,7 +1,40 @@
- a[href], button a:hover{
-    text-decoration: none;
-    color: white;
+footer {
+  background-color: rgb(65, 65, 68);
+  color: rgb(180, 214, 25);
+  margin: 3vh;
+  /* height: 2fr; */
+  /* width: 1fr; */
+  /* border: 2px dashed rgb(209, 12, 12); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-button a:hover{
-color:white;
+footer img {
+  /* border: 1.5px solid rgb(48, 156, 75); */
+  border-radius: 50%;
+  /* min-height: 5vh; */
+  width: 18vw;
+}
+#cl1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+footer > div {
+  /* border: 1px solid rgb(4, 68, 20); */
+  margin: 2vh;
+}
+
+.row {
+  margin-right: 1vw !important;
+  margin-left: 1vw !important;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 410px) {
+  footer {
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 1vw;
+  }
 }
