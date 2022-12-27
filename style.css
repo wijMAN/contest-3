@@ -30,7 +30,7 @@ footer > div {
   margin-left: 1vw !important;
 }
 
-@media only screen and (min-width: 100px) and (max-width: 410px) {
+@media only screen and (min-width: 100px) and (max-width: 600px) {
   footer {
     width: 100%;
     flex-direction: column;
